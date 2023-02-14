@@ -35,5 +35,8 @@ public class Sorter {
             }  
             array[i+1] = key;  
         }  
-    }  
+    } 
+    public static void Sort(int array[]){
+        insertionSort(array);
+    } 
 } 
